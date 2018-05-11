@@ -13,6 +13,7 @@ while not valid:
             player_answer = int(player_answer)
         except:
             print ("Некорректный ввод. Вы уверены, что ввели число?")
-	     continue
+            continue
 
 if player_answer>=1 and player_answer<=9:
+    print('tttt')
